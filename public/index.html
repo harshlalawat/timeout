@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <input type="number" name="timeValue" id="time-value" value="0">
+        <select name="timeType" id="time-type">
+            <option value="seconds">secs</option>
+            <option value="minutes">mins</option>
+            <option value="hours">hrs</option>
+        </select>
+        <button type="submit" id="timeout-btn">Set Timeout</button>
+    </div>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+</html>
